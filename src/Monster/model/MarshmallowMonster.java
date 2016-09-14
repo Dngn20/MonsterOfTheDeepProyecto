@@ -29,13 +29,41 @@ public class MarshmallowMonster
 		this.headcount = mouthcount;
 		this.hasNose = hasNose;
 	}
+	
+	public String toString()
+	{
+		String description = "Monster says: Name is" + name;
+	
+		return description;
+	}
 
-	/*
-	 * 
-	 */
+	public String getname()
+	{
+		return name;
+	}
+	public double gettentaclecount()
+	{
+		return tentaclecount;
+	}
 
+	public int geteyecount()
+	{
+		return eyecount;
+	}
+	
+	public int getmouthcount()
+	{
+		return mouthcount;
+	}
 
-
+	public int getheadcount()
+	{
+		return headcount;
+	}
+	public boolean gethasnose()
+	{
+		return hasNose;
+	}
 
 
 

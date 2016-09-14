@@ -13,6 +13,12 @@ public class MonsterController
 	{
 	System.out.println("We made monsters today!.");
 	System.out.println("Here is mine" + firstMonster);
+	System.out.println("I have" + firstMonster.gettentaclecount());
+	System.out.println("I have" + firstMonster.geteyecount());
+	System.out.println("I have" + firstMonster.getmouthcount());
+	System.out.println("I have" + firstMonster.getheadcount());
+	System.out.println("I have" + firstMonster.gethasnose());
+	
 	}
 	/*monster name Sumeray
 	 * has 54.540 tentacles
